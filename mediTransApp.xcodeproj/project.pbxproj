@@ -14,6 +14,12 @@
 		D0291B052A082D7800B91BF1 /* mediTransAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0291B042A082D7800B91BF1 /* mediTransAppTests.swift */; };
 		D0291B0F2A082D7800B91BF1 /* mediTransAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0291B0E2A082D7800B91BF1 /* mediTransAppUITests.swift */; };
 		D0291B112A082D7800B91BF1 /* mediTransAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0291B102A082D7800B91BF1 /* mediTransAppUITestsLaunchTests.swift */; };
+		D0291B1E2A082EAC00B91BF1 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0291B1D2A082EAC00B91BF1 /* ApplicationData.swift */; };
+		D0291B202A08364100B91BF1 /* MedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0291B1F2A08364100B91BF1 /* MedModel.swift */; };
+		D0291B222A08367500B91BF1 /* MedItemOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0291B212A08367500B91BF1 /* MedItemOrder.swift */; };
+		D0291B242A08372A00B91BF1 /* MedOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0291B232A08372A00B91BF1 /* MedOrder.swift */; };
+		D0291B262A08387000B91BF1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0291B252A08387000B91BF1 /* DetailView.swift */; };
+		D0291B282A0839E800B91BF1 /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0291B272A0839E800B91BF1 /* ReceiptView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		D0291B0A2A082D7800B91BF1 /* mediTransAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mediTransAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0291B0E2A082D7800B91BF1 /* mediTransAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediTransAppUITests.swift; sourceTree = "<group>"; };
 		D0291B102A082D7800B91BF1 /* mediTransAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediTransAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0291B1D2A082EAC00B91BF1 /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
+		D0291B1F2A08364100B91BF1 /* MedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedModel.swift; sourceTree = "<group>"; };
+		D0291B212A08367500B91BF1 /* MedItemOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedItemOrder.swift; sourceTree = "<group>"; };
+		D0291B232A08372A00B91BF1 /* MedOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedOrder.swift; sourceTree = "<group>"; };
+		D0291B252A08387000B91BF1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D0291B272A0839E800B91BF1 /* ReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				D0291AF22A082D7700B91BF1 /* mediTransAppApp.swift */,
+				D0291B1F2A08364100B91BF1 /* MedModel.swift */,
+				D0291B232A08372A00B91BF1 /* MedOrder.swift */,
+				D0291B212A08367500B91BF1 /* MedItemOrder.swift */,
+				D0291B1D2A082EAC00B91BF1 /* ApplicationData.swift */,
 				D0291AF42A082D7700B91BF1 /* ContentView.swift */,
+				D0291B252A08387000B91BF1 /* DetailView.swift */,
+				D0291B272A0839E800B91BF1 /* ReceiptView.swift */,
 				D0291AF62A082D7800B91BF1 /* Assets.xcassets */,
 				D0291AF82A082D7800B91BF1 /* mediTransApp.entitlements */,
 				D0291AF92A082D7800B91BF1 /* Preview Content */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0291B202A08364100B91BF1 /* MedModel.swift in Sources */,
+				D0291B242A08372A00B91BF1 /* MedOrder.swift in Sources */,
+				D0291B1E2A082EAC00B91BF1 /* ApplicationData.swift in Sources */,
+				D0291B282A0839E800B91BF1 /* ReceiptView.swift in Sources */,
+				D0291B262A08387000B91BF1 /* DetailView.swift in Sources */,
 				D0291AF52A082D7700B91BF1 /* ContentView.swift in Sources */,
 				D0291AF32A082D7700B91BF1 /* mediTransAppApp.swift in Sources */,
+				D0291B222A08367500B91BF1 /* MedItemOrder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
